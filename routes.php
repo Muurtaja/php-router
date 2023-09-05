@@ -2,8 +2,6 @@
 require "./router.php";
 require "./TestController.php";
 
-TestController::test();
-exit;
 Router::get('/', function () {
     echo "hello"; 
 });
